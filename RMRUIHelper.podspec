@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
    s.source = { :git => 'https://github.com/Klimowsa/RMRUIHelper.git', :tag => s.version }
    s.source_files = 'RMRUIHelper/Pod/**/*.{h,m}'
+   s.public_header_files = "RMRUIHelper/Pod/**/*.h"
 
    s.platform = :ios
    s.ios.deployment_target = '8.0'
